@@ -16,7 +16,16 @@
 ## 3. Running Application 
 
     a. Define the main program (ex: app.py)
-    b. export FLASK_APP=app or FLASK_APP=development (for dev mode, catching errors)
+    b. export FLASK_APP=fitness_app and FLASK_ENV=development (for dev mode, catching errors)
     c. flask run -- runs local host (for now)
         c.1. LATER: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html 
 
+# Flask Resources
+
+https://flask.palletsprojects.com/en/2.3.x/ 
+
+https://www.fullstackpython.com/flask.html
+
+https://www.geeksforgeeks.org/python-introduction-to-web-development-using-flask/
+
+https://www.digitalocean.com/community/tutorials/how-to-create-your-first-web-application-using-flask-and-python-3
