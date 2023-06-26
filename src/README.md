@@ -1,3 +1,13 @@
+# /src/ Structure 
+
+    /src/static/ --> contains css
+    /src/templates/ --> templates for rendering the html
+    /src/fitness_app.py --> does all of the main set up for logging in, database creation, etc. 
+    /src/run.py --> runs the main function (basically you can just do python3 run.py to start everything up)
+    /src/models.py --> holds database information
+    /src/views.py --> holds the routing information for different views
+
+
 # Setting up Flask 
 
 ## 1. Installing Flask

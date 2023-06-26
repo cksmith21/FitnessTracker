@@ -3,8 +3,6 @@ import os
 from flask import Flask, render_template, url_for, views
 from flask_login import LoginManager
 from flask_sqlalchemy import SQLAlchemy
-from .views import *
-from .models import *
 
 '''
     Creation of necessary items. Login manager, database configuration, and app initiation. 
@@ -29,4 +27,3 @@ lm.init_app(app)
 lm.session_protection = "strong"
 lm.login_view = "login"
 lm.init_app(app)
-
