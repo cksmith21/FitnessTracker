@@ -3,7 +3,9 @@
 ## Tech Stack
 
 **Web framework**: Flask (Python)
+
 **Database**: SQLAlchemy 
+
 **Styling**: Bootstrap/HTML/CSS
 
 ## General Idea
