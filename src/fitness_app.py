@@ -21,6 +21,8 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'fitness_information.db')
 db = SQLAlchemy(app)
 
+print(type(db))
+
 # login manager initalization
 
 lm.init_app(app)
