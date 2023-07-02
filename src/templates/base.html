@@ -1,10 +1,18 @@
+<!-- BASE TEMPLATE -->
 <!DOCTYPE html>
 <html>
     <head> 
-        
-
-
+        {% block head %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='static/style.css')}}"> 
+        <title> {% block title %} {% endblock % } - Workout Tracker </title>
+        {% endblock %}
     </head>
-
-
+    <body>
+        <div id="content"> {% block content %} {% endblock %} </div>
+        <div id="footer">
+            {% block footer %}
+            &copy; Copywrite 2023
+            {% endblock %} 
+        </div>
+    </body>
 </html>
